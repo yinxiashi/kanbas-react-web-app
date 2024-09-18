@@ -22,8 +22,8 @@ export default function AssignmentEditor() {
                             <label htmlFor="wd-group">Assignment Group</label>
                         </td>
                         <td>
-                            <select id="wd-group">
-                                <option value="ASSIGNMENTS" selected>ASSIGNMENTS</option>
+                            <select id="wd-group" defaultValue="ASSIGNMENTS">
+                                <option value="ASSIGNMENTS">ASSIGNMENTS</option>
                             </select><br /><br />
                         </td>
                     </tr>
@@ -32,8 +32,8 @@ export default function AssignmentEditor() {
                             <label htmlFor="wd-display-grade-as">Display Grade as</label>
                         </td>
                         <td>
-                            <select id="wd-display-grade-as">
-                                <option value="Percentage" selected>Percentage</option>
+                            <select id="wd-display-grade-as" defaultValue="Percentage">
+                                <option value="Percentage">Percentage</option>
                             </select><br /><br />
                         </td>
                     </tr>
@@ -42,8 +42,8 @@ export default function AssignmentEditor() {
                             <label htmlFor="wd-submission-type">Submission Type</label>
                         </td>
                         <td>
-                            <select id="wd-submission-type">
-                                <option value="Online" selected>Online</option>
+                            <select id="wd-submission-type" defaultValue="Online">
+                                <option value="Online">Online</option>
                             </select><br /><br />
                             Online Entry Options<br />
                             <input type="checkbox" id="wd-text-entry" />
