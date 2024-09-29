@@ -94,11 +94,53 @@ export default function Lab1() {
               <td>2/17/21</td>
               <td>95</td>
             </tr>
+            <tr>
+              <td>Q4</td>
+              <td>nodejs</td>
+              <td>2/24/21</td>
+              <td>97</td>
+            </tr>
+            <tr>
+              <td>Q5</td>
+              <td>reactjs</td>
+              <td>3/1/21</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>Q6</td>
+              <td>Promise</td>
+              <td>3/7/21</td>
+              <td>92</td>
+            </tr>
+            <tr>
+              <td>Q7</td>
+              <td>JQuery</td>
+              <td>3/14/21</td>
+              <td>99</td>
+            </tr>
+            <tr>
+              <td>Q8</td>
+              <td>RPC</td>
+              <td>3/21/21</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>Q9</td>
+              <td>Restful API</td>
+              <td>3/28/21</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>Q10</td>
+              <td>Database</td>
+              <td>4/5/21</td>
+              <td>97</td>
+            </tr>
           </tbody>
           <tfoot>
             <tr>
               <td colSpan={3}>Average</td>
-              <td>90</td>
+              <td>94</td>
             </tr>
           </tfoot>
         </table>
@@ -139,6 +181,11 @@ export default function Lab1() {
             Hello World!
           </button>
           <br />
+
+          <h5>File upload</h5>
+          <input id="wd-upload" type="file" />
+          <br />
+
           <h5 id="wd-radio-buttons">Radio buttons</h5>
 
           <label>Favorite movie genre:</label><br />
@@ -224,6 +271,8 @@ export default function Lab1() {
       </div>
       <h4>Anchor tag</h4>
       Please <a id="wd-lipsum" href="https://www.lipsum.com">click here</a> to get dummy text<br />
+      Please <a id="wd-github" href="https://github.com/yinxiashi/kanbas-react-web-app">click here</a> to github repo<br />
+
     </div>
   );
 }
