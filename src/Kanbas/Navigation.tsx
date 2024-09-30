@@ -14,7 +14,7 @@ export default function KanbasNavigation() {
                 target="_blank"
                 rel="noreferrer"
                 className="list-group-item bg-black border-0 text-center">
-                <img src="/images/NEU.png" width="75px" />
+                <img src="/images/NEU.png" width="75px" alt="NEU logo" />
             </a>
             <Link to="/Kanbas/Account"
                 id="wd-account-link"
