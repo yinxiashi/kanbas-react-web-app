@@ -4,100 +4,126 @@ export default function Dashboard() {
         <div id="wd-dashboard">
             <h1 id="wd-dashboard-title">Dashboard</h1> <hr />
             <h2 id="wd-dashboard-published">Published Courses (7)</h2> <hr />
-            <div id="wd-dashboard-courses">
-                <div className="wd-dashboard-course">
-                    <img src="/images/reactjs.webp" alt="" width={200} />
-                    <div>
-                        <Link className="wd-dashboard-course-link"
-                            to="/Kanbas/Courses/1234/Home">
-                            CS1234 React JS
-                        </Link>
-                        <p className="wd-dashboard-course-title">
-                            Full Stack software developer
-                        </p>
-                        <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+            <div id="wd-dashboard-courses" className="row">
+                <div className="row row-cols-1 row-cols-md-5 g-4">
+                    <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div className="card rounded-3 overflow-hidden">
+                            <Link className="wd-dashboard-course-link text-decoration-none text-dark"
+                                to="/Kanbas/Courses/1234/Home">
+                                <img src="/images/reactjs.webp" alt="" width="100%" height={160} />
+                                <div className="card-body">
+                                    <h5 className="wd-dashboard-course-title card-title">
+                                        CS1234 React JS
+                                    </h5>
+                                    <p className="wd-dashboard-course-title card-text">
+                                        Full Stack software developer
+                                    </p>
+                                    <button className="btn btn-primary"> Go </button>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
-                </div>
-                <div className="wd-dashboard-course">
-                    <img src="/images/reactjs.webp" alt="" width={200} />
-                    <div>
-                        <Link className="wd-dashboard-course-link"
-                            to="/Kanbas/Courses/5001/Home">
-                            CS5001
-                        </Link>
-                        <p className="wd-dashboard-course-title">
-                            Intensive Foundations of Computer Science
-                        </p>
-                        <Link to="/Kanbas/Courses/5001/Home"> Go </Link>
+                    <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div className="card rounded-3 overflow-hidden">
+                            <Link className="wd-dashboard-course-link text-decoration-none text-dark"
+                                to="/Kanbas/Courses/5001/Home">
+                                <img src="/images/reactjs.webp" alt="" width="100%" height={160} />
+                                <div className="card-body">
+                                    <h5 className="wd-dashboard-course-title card-title">
+                                        CS5001
+                                    </h5>
+                                    <p className="wd-dashboard-course-title card-text">
+                                        Intensive Foundations of Computer Science
+                                    </p>
+                                    <button className="btn btn-primary"> Go </button>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
-                </div>
-                <div className="wd-dashboard-course">
-                    <img src="/images/reactjs.webp" alt="" width={200} />
-                    <div>
-                        <Link className="wd-dashboard-course-link"
-                            to="/Kanbas/Courses/5002/Home">
-                            CS5002
-                        </Link>
-                        <p className="wd-dashboard-course-title">
-                            Discrete Structures
-                        </p>
-                        <Link to="/Kanbas/Courses/5002/Home"> Go </Link>
+                    <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div className="card rounded-3 overflow-hidden">
+                            <Link className="wd-dashboard-course-link text-decoration-none text-dark"
+                                to="/Kanbas/Courses/5002/Home">
+                                <img src="/images/reactjs.webp" alt="" width="100%" height={160} />
+                                <div className="card-body">
+                                    <h5 className="wd-dashboard-course-title card-title">
+                                        CS5002
+                                    </h5>
+                                    <p className="wd-dashboard-course-title card-text">
+                                        Discrete Structures
+                                    </p>
+                                    <button className="btn btn-primary"> Go </button>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
-                </div>
-
-                <div className="wd-dashboard-course">
-                    <img src="/images/reactjs.webp" alt="" width={200} />
-                    <div>
-                        <Link className="wd-dashboard-course-link"
-                            to="/Kanbas/Courses/5004/Home">
-                            CS5004
-                        </Link>
-                        <p className="wd-dashboard-course-title">
-                            Object-Oriented Design
-                        </p>
-                        <Link to="/Kanbas/Courses/5004/Home"> Go </Link>
+                    <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div className="card rounded-3 overflow-hidden">
+                            <Link className="wd-dashboard-course-link text-decoration-none text-dark"
+                                to="/Kanbas/Courses/5004/Home">
+                                <img src="/images/reactjs.webp" alt="" width="100%" height={160} />
+                                <div className="card-body">
+                                    <h5 className="wd-dashboard-course-title card-title">
+                                        CS5004
+                                    </h5>
+                                    <p className="wd-dashboard-course-title card-text">
+                                        Object-Oriented Design
+                                    </p>
+                                    <button className="btn btn-primary"> Go </button>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
-                </div>
-
-                <div className="wd-dashboard-course">
-                    <img src="/images/reactjs.webp" alt="" width={200} />
-                    <div>
-                        <Link className="wd-dashboard-course-link"
-                            to="/Kanbas/Courses/5008/Home">
-                            CS5008
-                        </Link>
-                        <p className="wd-dashboard-course-title">
-                            Data Structures, Algorithms, and Their Applications within Computer Systems
-                        </p>
-                        <Link to="/Kanbas/Courses/5008/Home"> Go </Link>
+                    <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div className="card rounded-3 overflow-hidden">
+                            <Link className="wd-dashboard-course-link text-decoration-none text-dark"
+                                to="/Kanbas/Courses/5008/Home">
+                                <img src="/images/reactjs.webp" alt="" width="100%" height={160} />
+                                <div className="card-body">
+                                    <h5 className="wd-dashboard-course-title card-title">
+                                        CS5008
+                                    </h5>
+                                    <p className="wd-dashboard-course-title card-text">
+                                        Data Structures, Algorithms, and Their Applications within Computer Systems
+                                    </p>
+                                    <button className="btn btn-primary"> Go </button>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
-                </div>
-
-                <div className="wd-dashboard-course">
-                    <img src="/images/reactjs.webp" alt="" width={200} />
-                    <div>
-                        <Link className="wd-dashboard-course-link"
-                            to="/Kanbas/Courses/5800/Home">
-                            CS5800
-                        </Link>
-                        <p className="wd-dashboard-course-title">
-                            Algorithms
-                        </p>
-                        <Link to="/Kanbas/Courses/5800/Home"> Go </Link>
+                    <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div className="card rounded-3 overflow-hidden">
+                            <Link className="wd-dashboard-course-link text-decoration-none text-dark"
+                                to="/Kanbas/Courses/5800/Home">
+                                <img src="/images/reactjs.webp" alt="" width="100%" height={160} />
+                                <div className="card-body">
+                                    <h5 className="wd-dashboard-course-title card-title">
+                                        CS5800
+                                    </h5>
+                                    <p className="wd-dashboard-course-title card-text">
+                                        Algorithms
+                                    </p>
+                                    <button className="btn btn-primary"> Go </button>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
-                </div>
-
-                <div className="wd-dashboard-course">
-                    <img src="/images/reactjs.webp" alt="" width={200} />
-                    <div>
-                        <Link className="wd-dashboard-course-link"
-                            to="/Kanbas/Courses/5400/Home">
-                            CS5400
-                        </Link>
-                        <p className="wd-dashboard-course-title">
-                            Principles of Programming Language
-                        </p>
-                        <Link to="/Kanbas/Courses/5400/Home"> Go </Link>
+                    <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div className="card rounded-3 overflow-hidden">
+                            <Link className="wd-dashboard-course-link text-decoration-none text-dark"
+                                to="/Kanbas/Courses/5400/Home">
+                                <img src="/images/reactjs.webp" alt="" width="100%" height={160} />
+                                <div className="card-body">
+                                    <h5 className="wd-dashboard-course-title card-title">
+                                        CS5400
+                                    </h5>
+                                    <p className="wd-dashboard-course-title card-text">
+                                        Principles of Programming Language
+                                    </p>
+                                    <button className="btn btn-primary"> Go </button>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
