@@ -34,6 +34,63 @@ body * {
     --bs-list-group-border-color: gray;
 }
 
-.wd-lesson {
+.wd-lesson,
+.wd-assignment {
     border-left: 3px solid green !important;
+}
+
+.wd-assignment-search {
+    height: 48px;
+}
+
+.wd-assignment-control-text {
+    border: 1px solid darkgrey;
+    border-radius: 24px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.wd-assignment-details {
+    display: flex;
+    align-items: center;
+}
+
+.wd-assignment-content {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.wd-assignment-content-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wd-submission-type-group,
+.wd-submission-assign-group {
+    border: 1px solid #DDD;
+    border-radius: 8px;
+}
+
+.wd-submission-type-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wd-submission-assign-group-label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wd-assign-to-available-group {
+    display: flex;
+}
+
+.wd-assign-to-available-from {
+    flex-grow: 1;
+}
+
+.wd-assign-to-available-until {
+    flex-grow: 1;
 }

@@ -15,7 +15,7 @@ export default function Signin() {
             <Link
                 id="wd-signin-btn"
                 to="/Kanbas/Account/Profile"
-                className="btn btn-primary w-100">
+                className="btn btn-primary w-100 mb-2">
                 Sign in
             </Link>
             <Link
