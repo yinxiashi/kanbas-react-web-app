@@ -1,4 +1,4 @@
-import { Fa0, FaPlus } from "react-icons/fa6";
+import { FaPlus } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 export default function AssignmentsControls() {
     return (
